@@ -1,0 +1,46 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Agola Color Schemes",
+		"All Autocomplete",
+		"Anaconda",
+		"Asciidoctor",
+		"Babel",
+		"Colorsublime",
+		"DeleteBlankLines",
+		"Djaneiro",
+		"Django",
+		"Dockerfile Syntax Highlighting",
+		"DotENV",
+		"EasyDiff",
+		"EditorConfig",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Gitignore",
+		"Indent XML",
+		"JsonTree",
+		"JsPrettier",
+		"LESS",
+		"MarkdownPreview",
+		"Package Control",
+		"Python Breakpoints",
+		"PyYapf Python Formatter",
+		"React IDE",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-json",
+		"SublimeLog",
+		"Theme - Soda",
+		"Theme - Soda SolarizedDark",
+		"TrailingSpaces",
+		"TypeScript"
+	]
+}

@@ -1,0 +1,14 @@
+zsh_wifi_signal(){
+    local signal=$(nmcli device wifi | grep \* | awk '{print $7}')
+    local color='\e[47m'
+    [[ $signal -gt 75 ]] && color='\e[42m'
+    [[ $signal -gt 60 ]] && color='\e[43m'
+    [[ $signal -lt 50 ]] && color='\e[41m'
+    echo -en "$color  $signal"
+}
+
+POWERLEVEL9K_MODE='awesome-fontconfig'
+POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S \uE868  %d.%m.%y}"
+POWERLEVEL9K_CUSTOM_WIFI_SIGNAL="zsh_wifi_signal"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs virtualenv)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(battery load ram)
