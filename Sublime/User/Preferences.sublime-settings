@@ -2,7 +2,7 @@
 	"auto_complete": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Colorsublime - Themes/Solarized-ocean.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
 	"detect_indentation": false,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
@@ -10,7 +10,9 @@
 	[
 		".DS_Store",
 		"*.pid",
-		"*.pyc"
+		"*.pyc",
+		"tags",
+		".coverage"
 	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
@@ -19,7 +21,8 @@
 		"__pycache__",
 		"env",
 		"env3",
-		"node_modules"
+		"node_modules",
+		".pytest_cache"
 	],
 	"font_face": "Ubuntu Mono",
 	"font_options":
@@ -36,6 +39,7 @@
 		"Git blame",
 		"PyYapf Python Formatter",
 		"requirementstxt",
+		"RestructuredText",
 		"Sass",
 		"SASS Snippets",
 		"SublimeLinter-jshint",
@@ -50,7 +54,7 @@
 	"show_full_path": true,
 	"show_minimap": false,
 	"tab_size": 4,
-	"theme": "Soda Dark.sublime-theme",
+	"theme": "Material-Theme-Lighter.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true
